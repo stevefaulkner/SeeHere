@@ -308,7 +308,7 @@ section, nav, main, footer, header, figure, article, h1, h2, h3, h4, h5, h6
  { border: thin dashed Gray !important;}
  
  input[required]:before
- {content:"required invalid ";
+ {content:"required invalid";
 z-index:1000; height-min:20px !important;
 background:black;
 padding:2px;
@@ -317,4 +317,12 @@ color:yellow;
 font-size:12px;
 display:inline-block;}
  
- 
+button:before
+ {content:"button";
+z-index:1000; height-min:20px !important;
+background:black;
+padding:2px;
+border:2px solid yellow;
+color:yellow;
+font-size:12px;
+display:inline-block;}
